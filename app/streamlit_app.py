@@ -2,8 +2,9 @@ import streamlit as st
 from PIL import Image
 from model.retinaModel import load_retina_model
 from utils.image_preprocessing import preprocess_input_image
+import numpy as np
 
-model_path = "model/ey"
+model_path = "model/eye_retina.h5"
 model = load_retina_model(model_path)
 
 def load_and_predict(upload_file):
