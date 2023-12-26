@@ -7,3 +7,5 @@ eye_retina2.h5 filter=lfs diff=lfs merge=lfs -text
 *.txt filter=lfs diff=lfs merge=lfs -text
 *.py filter=lfs diff=lfs merge=lfs -text
 *.pyc filter=lfs diff=lfs merge=lfs -text
+.h5
+ filter=lfs diff=lfs merge=lfs -text
