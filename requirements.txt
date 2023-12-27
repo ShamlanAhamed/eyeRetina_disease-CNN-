@@ -1,4 +1,0 @@
-streamlit==1.27.2
-Pillow==9.4.0
-tensorflow==2.15.0
-six==1.16.0
